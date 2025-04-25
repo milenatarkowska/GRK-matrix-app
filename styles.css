@@ -1,6 +1,5 @@
 body{
     font-family:sans-serif;
-    background-color:white;
     margin: 10px;
     padding: 0;
 }
@@ -18,3 +17,4 @@ body{
     border: 1px solid black;
     position: relative;
 }
+
