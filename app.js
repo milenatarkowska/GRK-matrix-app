@@ -116,3 +116,19 @@ function resetMatrix(){
     currentMatrix = makeIdentity();
     updateMatrixDisplay();
 }
+
+function shiftMatrix(){
+
+}
+
+function scaleMatrix(){
+
+}
+
+function rotateMatrix(){
+
+}
+
+function shearMatrix(){
+
+}
