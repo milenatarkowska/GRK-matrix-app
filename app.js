@@ -1,10 +1,16 @@
 let imgA;
 let imgB;
 let currentMatrix;
+let canvasA;
+let canvasB;
 
 function setup() {
-    createCanvas(1024,512);
-    background(255);
+    canvasA = createCanvas(512,512);
+    canvasA.parent('imageA');
+
+    canvasB = createCanvas(512,512);
+    let canvasBDiv = document.createElement('imageB');
+    canvasBDiv.appendChild(canvasB.canvas);
 
     currentMatrix = makeIdentity();
     updateMatrixDisplay();
