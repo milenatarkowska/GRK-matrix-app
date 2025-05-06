@@ -6,6 +6,9 @@ function setup() {
     createCanvas(1024,512);
     background(255);
 
+    currentMatrix = makeIdentity();
+    updateMatrixDisplay();
+
     imgA = createImage(512,512);
     imgB = createImage(512,512);
     imgA.loadPixels();
@@ -122,7 +125,6 @@ function shiftMatrix(){
 }
 
 function scaleMatrix(){
-
 }
 
 function rotateMatrix(){
